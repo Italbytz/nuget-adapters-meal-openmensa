@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.810.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Italbytz.Adapters.Meal.OpenMensa", "Italbytz.Adapters.Meal.OpenMensa\Italbytz.Adapters.Meal.OpenMensa.csproj", "{8321C8E8-45BE-41AF-838C-007620EA638E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Italbytz.Adapters.Meal.OpenMensa.Tests", "Italbytz.Adapters.Meal.OpenMensa.Tests\Italbytz.Adapters.Meal.OpenMensa.Tests.csproj", "{17FC7FEA-41B0-4091-8B4C-5B0EEEB6539E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8321C8E8-45BE-41AF-838C-007620EA638E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8321C8E8-45BE-41AF-838C-007620EA638E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8321C8E8-45BE-41AF-838C-007620EA638E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17FC7FEA-41B0-4091-8B4C-5B0EEEB6539E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FC7FEA-41B0-4091-8B4C-5B0EEEB6539E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FC7FEA-41B0-4091-8B4C-5B0EEEB6539E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FC7FEA-41B0-4091-8B4C-5B0EEEB6539E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
