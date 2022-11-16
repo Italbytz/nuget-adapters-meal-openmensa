@@ -12,7 +12,8 @@ namespace Italbytz.Adapters.Meal.OpenMensa
     {
         int Mensa { get; set; }
         DateTime Date { get; set; }
-        OpenMensaAPI api = new OpenMensaAPI();
+
+        readonly OpenMensaAPI api = new OpenMensaAPI();
 
         public OpenMensaMealDataSource(int mensa, DateTime date)
         {

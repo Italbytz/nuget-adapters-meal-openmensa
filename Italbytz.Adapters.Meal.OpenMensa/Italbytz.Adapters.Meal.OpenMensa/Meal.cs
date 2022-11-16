@@ -9,12 +9,12 @@ namespace Italbytz.Adapters.Meal.OpenMensa
         {
         }
 
-        public string Name { get; set; }
-        public string Image { get; set; }
-        public Allergens Allergens { get; set; }
-        public Additives Additives { get; set; }
-        public Category Category { get; set; }
-        public IPrice Price { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Image { get; set; } = string.Empty;
+        public Allergens Allergens { get; set; } = Allergens.None;
+        public Additives Additives { get; set; } = Additives.None;
+        public Category Category { get; set; } = Category.None;
+        public IPrice Price { get; set; } = new Price();
     }
 }
 
